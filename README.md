@@ -22,7 +22,7 @@ The colors are defined by the HIG with the following hex and RGB values:
 
 ## Midnight in Cupertino for iTerm2
 
-![Midnight in Cupertino for iTerm](midnight-in-cupertino-iterm2.webp)
+![Midnight in Cupertino for iTerm2](midnight-in-cupertino-iterm2.webp)
 
 #### Installation
 
