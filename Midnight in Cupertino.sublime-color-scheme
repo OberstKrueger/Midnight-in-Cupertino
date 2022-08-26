@@ -1,0 +1,55 @@
+{
+    "name": "Midnight in Cupertino",
+    "variables": {
+        "accent-blue": "006fff",
+        "hig-blue": "rgb(10,132,255)",
+        "hig-cyan": "rgb(90,200,245)",
+        "hig-green": "rgb(50,215,75)",
+        "hig-grey": "rgb(152,152,157)",
+        "hig-orange": "rgb(255,159,10)",
+        "hig-pink": "rgb(255,55,95)",
+        "hig-purple": "rgb(191,90,242)",
+        "hig-red": "rgb(255,69,58)",
+        "hig-teal": "rgb(106,196,220)",
+        "hig-yellow": "rgb(255,214,10)",
+        "window-bg": "#1c1c1c",
+        "window-fg": "#ffffff",
+        "window-inactive": "#242625",
+        "window-selection": "#282a29"
+    },
+    "globals":
+    {
+        "background": "var(window-bg)",
+        "block_caret_border": "var(window-fg)",
+        "caret": "var(window-fg)",
+        "foreground": "var(window-fg)",
+        "gutter": "var(window-bg)",
+        "gutter_foreground": "var(hig-grey)",
+        "gutter_foreground_highlight": "var(window-fg)",
+        "line_highlight": "var(window-selection)",
+
+        "accent": "var(accent-blue)",
+        "fold_marker": "var(window-selection)",
+        "minimap_border": "var(window-selection)",
+        "misspellings": "var(hig-red)",
+
+        "inactive_selection": "var(window-selection)",
+        "selection": "color(var(window-selection) blend(#ffffff 95%))",
+
+        "active_guide": "var(hig-orange)",
+        "guide": "var(window-inactive)",
+        "rulers": "var(hig-grey)",
+        "stack_guide": "var(hig-orange)",
+
+        "brackets_foreground": "var(hig-orange)",
+        "brackets_options": "bold",
+        "bracket_contents_foreground": "var(hig-orange)",
+        "bracket_contents_options": "bold",
+
+        "tags_options": "stippled_underline",
+    },
+    "rules":
+    [
+
+    ]
+}
