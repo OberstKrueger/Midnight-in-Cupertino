@@ -3,6 +3,7 @@
     "variables": {
         "accent-blue": "006fff",
         "hig-blue": "rgb(10,132,255)",
+        "hig-brown": "rgb(172,142,104)",
         "hig-cyan": "rgb(90,200,245)",
         "hig-green": "rgb(50,215,75)",
         "hig-grey": "rgb(152,152,157)",
@@ -50,6 +51,40 @@
     },
     "rules":
     [
-
+        {
+            "name": "Markup Bullets",
+            "scope": "markup.list.numbered.bullet | markup.list.unnumbered.bullet",
+            "foreground": "var(hig-brown)"
+        },
+        {
+            "name": "Markup Link",
+            "scope": "markup.underline.link",
+            "foreground": "var(hig-blue)"
+        },
+        {
+            "name": "Markup Link - Description",
+            "scope": "meta.image.inline.description | meta.link.inline.description",
+            "foreground": "var(hig-red)"
+        },
+        {
+            "name": "Markup Punctuation",
+            "scope": "punctuation.definition.heading | punctuation.definition.image | punctuation.definition.link",
+            "foreground": "var(hig-brown)"
+        },
+        {
+            "name": "Markup Style - Bold",
+            "scope": "markup.bold",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup Style - Bold Italic",
+            "scope": "markup.bold markup.italic | markup.italic markup.bold",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Markup Style - Italics",
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
     ]
 }
