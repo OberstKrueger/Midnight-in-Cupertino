@@ -52,6 +52,16 @@
     "rules":
     [
         {
+            "name": "Constant",
+            "scope": "constant",
+            "foreground": "var(hig-yellow)"
+        },
+        {
+            "name": "Constant Language",
+            "scope": "constant.language",
+            "foreground": "var(hig-pink)"
+        },
+        {
             "name": "Markup Bullets",
             "scope": "markup.list.numbered.bullet | markup.list.unnumbered.bullet",
             "foreground": "var(hig-brown)"
