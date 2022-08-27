@@ -58,7 +58,7 @@
         },
         {
             "name": "Markup Link",
-            "scope": "markup.underline.link",
+            "scope": "markup.underline.link | constant.character.escape.url",
             "foreground": "var(hig-blue)"
         },
         {
