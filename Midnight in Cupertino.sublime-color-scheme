@@ -86,5 +86,10 @@
             "scope": "markup.italic",
             "font_style": "italic"
         },
+        {
+            "name": "Strings",
+            "scope": "string",
+            "foreground": "var(hig-red)"
+        },
     ]
 }
