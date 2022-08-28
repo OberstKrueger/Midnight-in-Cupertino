@@ -112,5 +112,21 @@
             "scope": "string",
             "foreground": "var(hig-red)"
         },
+        {
+            "name": "Storage Modifier",
+            "scope": "storage.modifier",
+            "foreground": "var(hig-pink)"
+        },
+        {
+            "name": "Storage Type",
+            "scope": "storage.type",
+            "foreground": "var(hig-pink)"
+        },
+        {
+            "name": "Support Type",
+            "scope": "support.type",
+            "foreground": "var(hig-purple)"
+        },
+
     ]
 }
