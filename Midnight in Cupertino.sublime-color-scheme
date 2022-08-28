@@ -52,6 +52,12 @@
     "rules":
     [
         {
+            "name": "Comments",
+            "scope": "comment",
+            "foreground": "var(hig-grey",
+            "font_style": "italic"
+        },
+        {
             "name": "Constant",
             "scope": "constant",
             "foreground": "var(hig-yellow)"
