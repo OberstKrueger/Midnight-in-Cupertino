@@ -103,6 +103,11 @@
             "font_style": "italic"
         },
         {
+            "name": "Preprocessor",
+            "scope": "meta.preprocessor | meta.preprocessor * *",
+            "foreground": "var(hig-orange)"
+        },
+        {
             "name": "Strings",
             "scope": "string",
             "foreground": "var(hig-red)"
