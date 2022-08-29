@@ -68,6 +68,10 @@
             "foreground": "var(hig-pink)"
         },
         {
+            "name": "Entity Name",
+            "scope": "entity.name",
+            "foreground": "var(hig-cyan)"
+        },
             "name": "Markup Bullets",
             "scope": "markup.list.numbered.bullet | markup.list.unnumbered.bullet",
             "foreground": "var(hig-brown)"
@@ -128,10 +132,19 @@
             "foreground": "var(hig-pink)"
         },
         {
+            "name": "Support Function",
+            "scope": "support.function",
+            "foreground": "var(hig-purple)"
+        },
+        {
             "name": "Support Type",
             "scope": "support.type",
             "foreground": "var(hig-purple)"
         },
-
+        {
+            "name": "Variable Function",
+            "scope": "variable.function",
+            "foreground": "var(hig-cyan)"
+        },
     ]
 }
