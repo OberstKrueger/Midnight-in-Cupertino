@@ -62,6 +62,7 @@
             "scope": "constant",
             "foreground": "var(hig-yellow)"
         },
+
         {
             "name": "Constant Language",
             "scope": "constant.language",
@@ -72,6 +73,12 @@
             "scope": "entity.name",
             "foreground": "var(hig-cyan)"
         },
+        {
+            "name": "Keyword Control",
+            "scope": "keyword.control",
+            "foreground": "var(hig-pink)"
+        },
+        {
             "name": "Markup Bullets",
             "scope": "markup.list.numbered.bullet | markup.list.unnumbered.bullet",
             "foreground": "var(hig-brown)"
