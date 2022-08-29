@@ -109,8 +109,13 @@
         },
         {
             "name": "Strings",
-            "scope": "string",
+            "scope": "string | string constant.other.placeholder",
             "foreground": "var(hig-red)"
+        },
+        {
+            "name": "String Single Quote / Character",
+            "scope": "string.quoted.single",
+            "foreground": "var(hig-yellow)"
         },
         {
             "name": "Storage Modifier",
