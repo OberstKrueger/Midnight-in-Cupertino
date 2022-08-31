@@ -74,9 +74,14 @@
             "foreground": "var(hig-cyan)"
         },
         {
-            "name": "Keyword Control",
-            "scope": "keyword.control",
+            "name": "Keyword",
+            "scope": "keyword",
             "foreground": "var(hig-pink)"
+        },
+        {
+            "name": "Keyword Operator",
+            "scope": "keyword.operator",
+            "foreground": "var(window-fg)"
         },
         {
             "name": "Markup Bullets",
