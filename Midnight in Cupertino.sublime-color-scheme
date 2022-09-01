@@ -79,6 +79,11 @@
             "foreground": "var(hig-pink)"
         },
         {
+            "name": "Keyword Import",
+            "scope": "keyword.control.import",
+            "foreground": "var(hig-orange)"
+        },
+        {
             "name": "Keyword Operator",
             "scope": "keyword.operator",
             "foreground": "var(window-fg)"
