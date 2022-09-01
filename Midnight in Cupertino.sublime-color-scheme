@@ -163,5 +163,11 @@
             "scope": "variable.function",
             "foreground": "var(hig-cyan)"
         },
+
+        /* SEMANTIC HIGHLIGHTING SUPPORT*/
+        {
+            "scope": "meta.semantic-token",
+            "background": "#00000101"
+        }
     ]
 }
