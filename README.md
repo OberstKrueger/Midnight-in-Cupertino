@@ -32,6 +32,10 @@ The colors are defined by the HIG with the following hex and RGB values:
 4. From the **Color Presets** dropdown on the bottom-right, click **Import**.
 5. Select the **midnight-in-cupertino-iterm2.itermcolors** file from the directory you downloaded it to.
 
+## Midnight in Cupertino for Sublime Text
+
+![Midnight in Cupertino for Sublime Text](midnight-in-cupertino-sublime.webp)
+
 ## Midnight in Cupertino for Xcode
 
 ![Midnight in Cupertino for Xcode](midnight-in-cupertino-xcode.webp)
