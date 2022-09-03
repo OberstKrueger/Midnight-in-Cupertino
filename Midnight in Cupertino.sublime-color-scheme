@@ -94,6 +94,11 @@
             "foreground": "var(hig-brown)"
         },
         {
+            "name": "Markup Checkbox Mark",
+            "scope": "markup.checkbox.mark",
+            "foreground": "var(hig-cyan)"
+        },
+        {
             "name": "Markup Link",
             "scope": "markup.underline.link | constant.character.escape.url",
             "foreground": "var(hig-blue)"
