@@ -52,6 +52,11 @@
     "rules":
     [
         {
+            "name": "Annotation",
+            "scope": "meta.annotation | meta.annotation keyword.operator | meta.annotation variable.function",
+            "foreground": "var(hig-orange)"
+        },
+        {
             "name": "Comments",
             "scope": "comment",
             "foreground": "var(hig-grey",
@@ -62,11 +67,15 @@
             "scope": "constant",
             "foreground": "var(hig-yellow)"
         },
-
         {
             "name": "Constant Language",
             "scope": "constant.language",
             "foreground": "var(hig-pink)"
+        },
+        {
+            "name": "Constant Placeholder",
+            "scope": "constant.other.placeholder.rust",
+            "foreground": "var(window-fg)"
         },
         {
             "name": "Entity Name",
@@ -74,8 +83,14 @@
             "foreground": "var(hig-cyan)"
         },
         {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(hig-red)",
+            "font_style": "underline"
+        },
+        {
             "name": "Keyword",
-            "scope": "keyword",
+            "scope": "keyword | keyword.operator.word",
             "foreground": "var(hig-pink)"
         },
         {
@@ -130,7 +145,7 @@
         },
         {
             "name": "Preprocessor",
-            "scope": "meta.preprocessor | meta.preprocessor * *",
+            "scope": "entity.name.constant.preprocessor | entity.name.function.preprocessor | meta.preprocessor | meta.preprocessor keyword.control | meta.preprocessor keyword.operator | eta.preprocessor storage.modifier | meta.preprocessor string",
             "foreground": "var(hig-orange)"
         },
         {
@@ -159,6 +174,11 @@
             "foreground": "var(hig-purple)"
         },
         {
+            "name": "Support Macro",
+            "scope": "support.macro",
+            "foreground": "var(hig-orange)"
+        },
+        {
             "name": "Support Type",
             "scope": "support.type",
             "foreground": "var(hig-purple)"
@@ -166,6 +186,11 @@
         {
             "name": "Variable Function",
             "scope": "variable.function",
+            "foreground": "var(hig-cyan)"
+        },
+        {
+            "name": "Variable Other Member",
+            "scope": "variable.other.member",
             "foreground": "var(hig-cyan)"
         },
 
