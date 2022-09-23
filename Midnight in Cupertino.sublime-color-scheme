@@ -198,6 +198,10 @@
         {
             "scope": "meta.semantic-token",
             "background": "#00000101"
-        }
+        },
+        {
+            "scope": "meta.semantic-token.class",
+            "foreground": "var(hig-green)"
+        },
     ]
 }
