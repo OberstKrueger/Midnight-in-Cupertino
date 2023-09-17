@@ -129,6 +129,12 @@
             "foreground": "var(hig-brown)"
         },
         {
+            "name": "Markup Quote",
+            "scope": "markup.quote",
+            "foreground": "var(hig-grey)",
+            "font_style": "italic"
+        },
+        {
             "name": "Markup Style - Bold",
             "scope": "markup.bold",
             "font_style": "bold"
