@@ -59,7 +59,7 @@
         {
             "name": "Comments",
             "scope": "comment",
-            "foreground": "var(hig-grey",
+            "foreground": "var(hig-grey)",
             "font_style": "italic"
         },
         {
