@@ -1,4 +1,4 @@
-# Colors of Cupertino
+# Midnight in Cupertino
 
 These themes are based on the colors set out in Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/foundations/color). Themes are updated as the HIG reference colors are updated.
 
